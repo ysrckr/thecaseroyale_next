@@ -1,0 +1,14 @@
+.strike {
+	position: relative;
+    text-decoration: none;
+	&:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 50%;
+		right: 0;
+		border-top: 3px solid;
+		border-color: blue;
+        transform: rotate(-16deg);
+	}
+}
